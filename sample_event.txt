@@ -1,0 +1,54 @@
+{
+    "insertId": "z95i0abcdef",
+    "logName": "organizations/123456789012/logs/cloudaudit.googleapis.com%2Factivity",
+    "protoPayload": {
+        "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+        "authenticationInfo": {
+            "principalEmail": "user@esquared.dev"
+        },
+        "authorizationInfo": [
+            {
+                "granted": true,
+                "permission": "resourcemanager.projects.create",
+                "resource": "organizations/123456789012",
+                "resourceAttributes": {}
+            },
+            {
+                "resourceAttributes": {}
+            }
+        ],
+        "methodName": "CreateProject",
+        "request": {
+            "@type": "type.googleapis.com/google.cloudresourcemanager.v1.CreateProjectRequest",
+            "project": {
+                "createTime": "2020-09-22T17:08:03.135Z",
+                "lifecycleState": "ACTIVE",
+                "name": "My Project 2942",
+                "parent": {
+                    "id": "123456789012",
+                    "type": "organization"
+                },
+                "projectId": "unique-spirit-290317",
+                "projectNumber": "210987654321"
+            }
+        },
+        "requestMetadata": {
+            "callerIp": "71.68.255.255",
+            "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36,gzip(gfe)",
+            "destinationAttributes": {},
+            "requestAttributes": {}
+        },
+        "resourceName": "projects/unique-spirit-290317",
+        "serviceName": "cloudresourcemanager.googleapis.com",
+        "status": {}
+    },
+    "receiveTimestamp": "2020-09-22T17:08:05.512772562Z",
+    "resource": {
+        "labels": {
+            "project_id": "unique-spirit-290317"
+        },
+        "type": "project"
+    },
+    "severity": "NOTICE",
+    "timestamp": "2020-09-22T17:08:05.416Z"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "gcf-newproj-notification",
+  "version": "1.0.0",
+  "description": "Send email alert on new GCP Project creation event from Pub/Sub.",
+  "main": "index.js",
+  "author": "Earl Gay",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.6"
+  }
+}
