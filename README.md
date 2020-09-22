@@ -5,6 +5,8 @@ This [Google Cloud Functions](https://cloud.google.com/functions) function expec
 logName:organizations/[ORGANIZATION_ID]/logs/ AND resource.type=project AND protoPayload.methodName=CreateProject
 ```
 
+**Disclaimer: This is not an officially supported Google project.**
+
 ## Prerequisites
 1. Sign up for [SendGrid Email](https://console.cloud.google.com/marketplace/details/sendgrid-app/sendgrid-email) API in the GCP Marketplace. 
 
