@@ -66,11 +66,10 @@ Further documentation:
 * GCP Marketplace > [SendGrid Email API](https://console.cloud.google.com/marketplace/details/sendgrid-app/sendgrid-email)
 
 ## Test
-1. Copy test zip file to Source Bucket:
+1. Create a new test project to trigger an event.
 ```
 gcloud projects create [PROJECT_ID]
 ```
-2. Check destination email inbox. 
 
 Variable definitions:
 * [PROJECT_ID]: Test project name that will trigger the function.
