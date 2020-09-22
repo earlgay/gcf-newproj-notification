@@ -44,7 +44,7 @@ exports.newProjNotification = (message, context) => {
 		to: destinationEmail,
 		from: sourceEmail,
         subject: `New Project Created: ${project}`,
-        text: `A new Google Cloud Platform project ${project} has been created by: ${user}.`
+        text: `A new Google Cloud Platform project (${project}) has been created by: ${user}.`
 	};
 	sgMail.send(emailMsg);
     console.log(`Email notification sent to: ${destinationEmail}.`);
