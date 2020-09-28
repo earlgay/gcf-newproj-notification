@@ -86,4 +86,4 @@ Variable definitions:
 * **@sendgrid/mail**: Twilio SendGrid's v3 Node.js Library
 
 ## References
-* [Placeholder]()
+* [Use Log Sinks for Google Cloud Function Triggers](https://www.youtube.com/watch?v=VDQmhywGcts)
